@@ -52,5 +52,5 @@ I envision a standard library which would automate access to these standard maps
 ```
 import standard_candles as sc
 
-my_data['drought_state', 'inflation', 'local_language', 'at_war_?', 'mean_temp'] = sc.time_location(my_data.year, my_data.month, my_data.postal_code)
+my_data['drought_state', 'mean_temp', 'inflation', 'local_language', 'at_war_?', 'FCOJ_price'] = sc.time_location(my_data.year, my_data.month, my_data.postal_code)
 ```
